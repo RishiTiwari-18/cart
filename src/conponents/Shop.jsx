@@ -3,7 +3,7 @@ import Card from './Card'
 
 const Shop = () => {
   return (
-<section>
+<section className='section' >
     {list.map((item)=>{
       return <Card item={item} key={item.id} />
     })}
